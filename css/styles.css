@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    /* border: 1px solid red; */
+}
+
+body {
+    background: rgb(12, 42, 66);
+}
+
+.main-container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+/* DATOS */
+.datos {
+  background-color: #5c81e5;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  gap: 10px;
+}
+
+.datos p {
+  background-color: rgb(20, 32, 47);
+  color: aliceblue;
+  padding: 6px 10px;
+  border-radius: 5px;
+}
+
+.ta-wrapper {
+  background: #3c424a;
+  color: white;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 0 7px 7px rgb(0 0 0 / 20%);
+  min-height: 300px;
+}
+
+.heading h1 {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.input-wrapper {
+  margin-bottom: 20px;
+}
+.input-wrapper input {
+    outline: none;
+    border-radius: 15px;
+    border: 0;
+    background: rgba(0,0,0,0.3);
+    padding: 10px;
+    color: white;
+    width: 500px;
+    margin-right: 20px;
+}
+.input-wrapper button {
+  background: rgb(12, 42, 66);
+    color: white;
+    border: 0;
+    padding: 10px;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+  padding-bottom: 15px;
+}
+.todo-item input {
+  background: transparent;
+  border: navajowhite;
+  color: white;
+  outline: none;
+  margin-right: 300px;
+}
+
+.todo-item i{
+  color: white;
+  background: transparent;
+  border: 1px solid;
+  border-radius: 50%;
+  padding: 6px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  margin-left: 5px;
+  padding: 10px;
+}
+.todo-item button:hover {
+  color: white;
+}
+.done {
+  text-decoration: line-through;
+}
+.fa-x {
+  padding: 6px 8px !important;
+}
